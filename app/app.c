@@ -46,6 +46,8 @@ void apps_init(void)
             start_app(app);
         }
     }
+
+    return;
 }
 
 static int app_thread_entry(void *arg)
